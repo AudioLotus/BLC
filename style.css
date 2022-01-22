@@ -1,29 +1,29 @@
+/*Made by Mike Flowers @audiolotus.dev*/
+
+/*imports, media queries, fonts, etc*/
 @font-face {
-    font-family: Iosevka;
-    src: local("D:\Art\Fonts\Desktop\Iosevka\Iosevka Bold Italic Nerd Font Complete Mono Windows Compatible.ttf");
+    font-family: 'iosevka';
+    src: url('/assets/fonts/iosevka_nerd_font_complete-webfont.woff2') format('woff2'),
+    url('/assets/fonts/iosevka_nerd_font_complete-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*global selectors*/
+
+
+/*Allows using ul for nav without bullets*/
+
+nav ul {
+    list-style-type: none;
 }
 
-main {
+/*classes*/
 
-}
-
-nav {
+.nav-items {
+    background-color: slategray;
     display: flex;
-    flex-direction: revert;
-    font-family: monospace;
-
+    max-width: 100%;
 }
-
-p {
-    font-family: Iosevka, sans-serif;
-
-}
-
-li {
-    font-family: fantasy;
-    font-weight: 500;
-}
-
 
 .main--dark-grey {
     display: flex;
@@ -36,8 +36,13 @@ li {
 .footer--copyright {
 }
 
-.footer-nav {
+.footer--ul-header {
 }
 
-.footer--ul-header {
+.footer--list {
+
+}
+
+.footer--totop {
+
 }
