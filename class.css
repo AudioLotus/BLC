@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Iosevka;
+    src: local("D:\Art\Fonts\Desktop\Iosevka\Iosevka Bold Italic Nerd Font Complete Mono Windows Compatible.ttf");
+}
+
+main {
+
+}
+
+nav {
+    display: flex;
+    flex-direction: revert;
+    font-family: monospace;
+
+}
+
+p {
+    font-family: Iosevka, sans-serif;
+
+}
+
+li {
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+
+.main--dark-grey {
+    display: flex;
+}
+
+.main--wine-red {
+    display: flex;
+}
+
+.footer--copyright {
+}
+
+.footer-nav {
+}
+
+.footer--ul-header {
+}
