@@ -10,26 +10,20 @@
 }
 /*global selectors*/
 
-
-/*Allows using ul for nav without bullets*/
-
-nav ul {
-    list-style-type: none;
-}
-
 /*classes*/
 
-.nav-items {
+.nav-items, .nav-items ul /*had to add to get rid of bullets*/ {
+    list-style-type: none;
     background-color: slategray;
     display: flex;
     max-width: 100%;
 }
 
-.main--dark-grey {
+.main--var-1 {
     display: flex;
 }
 
-.main--wine-red {
+.main--var-2 {
     display: flex;
 }
 
