@@ -9,22 +9,35 @@
     font-style: normal;
 }
 /*global selectors*/
+nav {
+    max-height: 4rem;
+    max-width: 100%;
+    background-color: slategray;
+}
 
+footer {
+    max-width: 100%;
+    background-color: slategray;
+}
 /*classes*/
 
 .nav-items, .nav-items ul /*had to add to get rid of bullets*/ {
     list-style-type: none;
-    background-color: slategray;
     display: flex;
-    max-width: 100%;
 }
 
 .main--var-1 {
+    background-color: mediumpurple;
     display: flex;
 }
 
 .main--var-2 {
+    background-color: seagreen;
     display: flex;
+}
+
+.span--mid {
+
 }
 
 .footer--copyright {
@@ -34,9 +47,7 @@
 }
 
 .footer--list {
-
 }
 
 .footer--totop {
-
 }
