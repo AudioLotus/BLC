@@ -9,10 +9,13 @@
     font-style: normal;
 }
 /*global selectors*/
-nav {
-    max-height: 4rem;
-    max-width: 100%;
-    background-color: slategray;
+
+ul /*had to add to get rid of bullets*/{
+    list-style-type: none;
+}
+
+body {
+    font-size: 1rem
 }
 
 footer {
@@ -21,9 +24,12 @@ footer {
 }
 /*classes*/
 
-.nav-items, .nav-items ul /*had to add to get rid of bullets*/ {
-    list-style-type: none;
+.nav-items {
+    background-color: slategray;
+    height: 5rem;
     display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .main--var-1 {
