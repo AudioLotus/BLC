@@ -3,7 +3,7 @@
 /*imports, media queries, fonts, etc*/
 @font-face {
     font-family: 'iosevka';
-    src: url('/assets/fonts/iosevka_nerd_font_complete-webfont.woff2') format('woff2'),
+    src:url('/assets/fonts/iosevka_nerd_font_complete-webfont.woff2') format('woff2'),
     url('/assets/fonts/iosevka_nerd_font_complete-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -18,26 +18,33 @@ body {
     font-size: 1rem
 }
 
+nav {
+    display: flex;
+}
+
 footer {
     max-width: 100%;
     background-color: slategray;
 }
 /*classes*/
 
-.nav-items {
+.nav-list {
+    font-family: 'iosevka', sans-serif;
     background-color: slategray;
     height: 5rem;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
 }
 
-.main--var-1 {
+.nav-list-item {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.main-section--bg-prim {
     background-color: mediumpurple;
     display: flex;
 }
 
-.main--var-2 {
+.main-section--bg-sec {
     background-color: seagreen;
     display: flex;
 }
