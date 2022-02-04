@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-    display: flex;
+    background-color: aqua;
 }
 
 footer {
@@ -32,11 +32,14 @@ footer {
     font-family: 'iosevka', sans-serif;
     background-color: slategray;
     height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .nav-list-item {
-    align-items: flex-end;
-    justify-content: space-between;
+    margin: 0px .75rem;
 }
 
 .main-section--bg-prim {
