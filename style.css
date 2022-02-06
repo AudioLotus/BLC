@@ -10,16 +10,8 @@
 }
 /*global selectors*/
 
-ul /*had to add to get rid of bullets*/{
-    list-style-type: none;
-}
-
 body {
     font-size: 1rem
-}
-
-nav {
-    background-color: aqua;
 }
 
 footer {
@@ -29,6 +21,7 @@ footer {
 /*classes*/
 
 .nav-list {
+    list-style: none;
     font-family: 'iosevka', sans-serif;
     background-color: slategray;
     height: 5rem;
@@ -39,15 +32,15 @@ footer {
 }
 
 .nav-list-item {
-    margin: 0px .75rem;
+    margin: 0 .75rem;
 }
 
-.main-section--bg-prim {
+.main-section--prim {
     background-color: mediumpurple;
     display: flex;
 }
 
-.main-section--bg-sec {
+.main-section--sec {
     background-color: seagreen;
     display: flex;
 }
