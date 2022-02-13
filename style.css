@@ -2,9 +2,14 @@
 
 /*imports, media queries, fonts, etc*/
 @font-face {
-    font-family: "iosevka";
-    src:url("assets/fonts/iosevka_nerd_font_complete-webfont.woff2") format("woff2"),
-    url("assets/fonts/iosevka_nerd_font_complete-webfont.woff") format("woff");
+    font-family: 'amble'; /* Use Amble as the body font */
+    src: url("assets/fonts/Amble-Regular-Webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vera'; /* Use Vera Sans as the h1 and nav font */
+    src: url("assets/fonts/VeraMono-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,6 +17,7 @@
 * {
     font-size: 1rem;
     margin: 0;
+    font-family: 'amble', sans-serif;
     /*outline: crimson solid; [for testing only]*/
 }
 
@@ -32,6 +38,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: .75em;
 }
 
 .hero-main--header {
@@ -41,11 +48,11 @@ footer {
     background-repeat: repeat;
     background-size: 100%;
     background-clip: text;
-    font-family: "iosevka", sans-serif;
+    font-family: "vera", sans-serif;
 }
 .nav-list {
-    list-style: none;
-    font-family: "iosevka", sans-serif;
+    list-style-type: none;
+    font-family: 'vera', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -83,8 +90,6 @@ footer {
 .main-footer {
     margin: 0;
     padding: .3em;
-    display: flex;
-    gap: 1.3em;
 }
 
 .footer--copyright {
