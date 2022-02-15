@@ -28,9 +28,12 @@ footer {
 /*classes*/
 
 .hero-main {
-    height: 15rem;
     max-height: 15rem;
-    background-image: url("assets/svg/mainbg_blc.svg");
+    height: 15rem;
+    background-color: #2e2836;
+    background-image: url("assets/svg/herobg_pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .hero-main--title {
@@ -41,15 +44,22 @@ footer {
     gap: .75em;
 }
 
+/*noinspection CssInvalidPropertyValue*/
 .hero-main--header {
     font-size: 4.5em;
     color: transparent;
-    background-image: linear-gradient(10deg, #419b86, #276453);
+    background-image: linear-gradient(10deg, #a3c4bc, #077187);
     background-repeat: repeat;
     background-size: 100%;
     background-clip: text;
     font-family: "vera", sans-serif;
 }
+
+.hero-main--subheader {
+    color: #e8f0ee;
+    font-family: vera, sans-serif;
+}
+
 .nav-list {
     list-style-type: none;
     font-family: 'vera', sans-serif;
