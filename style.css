@@ -28,8 +28,6 @@ footer {
 /*classes*/
 
 .hero-main {
-    max-height: 15rem;
-    height: 15rem;
     background-color: #2e2836;
     background-image: url("assets/svg/herobg_pattern.svg");
     background-repeat: no-repeat;
@@ -73,6 +71,28 @@ footer {
 .nav-list-item {
     margin: 0 .55em;
     color: #fff;
+}
+
+.hero-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: .5em;
+    gap: 2em;
+}
+
+.hero-icon--item {
+    color: #e8f0ee;
+    border-right: solid 1px #ffffff;
+    padding-right: 5em;
+    margin: 3em;
+}
+
+.hero-icon--item > img {
+    width: 5em;
+    background-color: #e8f0ee;
+    background-clip: content-box;
+    color: transparent;
 }
 
 .main-section--prim {
