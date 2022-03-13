@@ -3,7 +3,7 @@
 /*imports, media queries, fonts, etc*/
 @font-face {
     font-family: 'amble'; /* Use Amble as the body font */
-    src: url("assets/fonts/Amble-Regular-Webfont.woff") format('woff');
+    src: url("assets/fonts/Amble-Regular-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
 }
