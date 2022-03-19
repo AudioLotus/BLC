@@ -42,7 +42,6 @@ footer {
     gap: .75em;
 }
 
-/*noinspection CssInvalidPropertyValue*/
 .hero-main--header {
     font-size: 4.5em;
     color: transparent;
@@ -51,11 +50,13 @@ footer {
     background-size: 100%;
     background-clip: text;
     font-family: "vera", sans-serif;
+    margin-top: 3rem;
 }
 
 .hero-main--subheader {
+    margin: 2rem 0 .2rem 0;
     color: #e8f0ee;
-    font-family: vera, sans-serif;
+    font-family: "vera", sans-serif;
 }
 
 .nav-list {
@@ -76,24 +77,18 @@ footer {
 .hero-icon {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     margin-top: .5em;
-    gap: 2em;
 }
 
 .hero-icon--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: .5em;
     color: #e8f0ee;
-    border-right: solid 1px #ffffff;
-    padding-right: 5em;
     margin: 3em;
 }
 
-.hero-icon--item > img {
-    width: 5em;
-    background-color: #e8f0ee;
-    background-clip: content-box;
-    color: transparent;
-}
 
 .main-section--prim {
     background-color: mediumpurple;
