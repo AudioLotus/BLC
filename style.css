@@ -21,17 +21,17 @@
     /*outline: crimson solid; [for testing only]*/
 }
 
-footer {
-    max-width: 100%;
-    background-color: slategray;
+body {
+    background: #2e2836;
 }
+
 /*classes*/
 
 .hero-main {
-    background-color: #2e2836;
+    background-color: #00003a;
     background-image: url("assets/svg/herobg_pattern.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
 }
 
 .hero-main--title {
@@ -54,6 +54,7 @@ footer {
 }
 
 .hero-main--subheader {
+    font-size: 1.2em;
     margin: 2rem 0 .2rem 0;
     color: #e8f0ee;
     font-family: "vera", sans-serif;
@@ -90,31 +91,31 @@ footer {
 }
 
 
-.main-section--prim {
-    background-color: mediumpurple;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+.main-section {
     padding: .3em;
 }
 
-.main-section--sec {
-    background-color: seagreen;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    padding: .3em;
+.main-section > p {
+    color: #e8f0ee;
 }
 
+.section-head {
+    font-family: "vera", sans-serif;
+    color: #e8f0ee;
+    font-size: 1.5em;
+    margin: .75em 0 .75em 0;
+}
 .span--mid {
 
 }
 
 .main-footer {
-    margin: 0;
+    margin: .5em 0 0 0;
     padding: .3em;
+    display: flex;
+    column-gap: 2em;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .footer--copyright {
